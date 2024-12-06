@@ -3,9 +3,7 @@ import { MatSort } from '@angular/material/sort';
 import { MatPaginator } from '@angular/material/paginator';
 import { MatTableDataSource } from '@angular/material/table';
 import { switchMap } from 'rxjs/operators';
-import { Examen } from '../../_model/examen';
 import { Component, OnInit, ViewChild } from '@angular/core';
-import { ExamenService } from 'src/app/_service/examen.service';
 import { TipoServicio } from 'src/app/_model/tiposervicio';
 import { TipoServicioService } from 'src/app/_service/tiposervicio.service';
 

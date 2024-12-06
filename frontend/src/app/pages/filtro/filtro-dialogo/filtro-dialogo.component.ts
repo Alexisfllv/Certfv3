@@ -1,10 +1,9 @@
 import { Component, Inject, OnInit } from '@angular/core';
 import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
-import { ConsultaListaExamenDTO } from 'src/app/_dto/consultaListaExamenDTO';
+
 import { Cita } from 'src/app/_model/cita';
-import { Consulta } from 'src/app/_model/consulta';
 import { CitaService } from 'src/app/_service/cita.service';
-import { ConsultaService } from 'src/app/_service/consulta.service';
+
 
 @Component({
   selector: 'app-filtro-dialogo',

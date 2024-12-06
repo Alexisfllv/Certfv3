@@ -1,17 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
-import { ConsultaListaExamenDTO } from 'src/app/_dto/consultaListaExamenDTO';
-import { Consulta } from 'src/app/_model/consulta';
-import { DetalleConsulta } from 'src/app/_model/detalleConsulta';
-import { Especialidad } from 'src/app/_model/especialidad';
-import { Examen } from 'src/app/_model/examen';
-import { Medico } from 'src/app/_model/medico';
-import { Paciente } from 'src/app/_model/paciente';
-import { ConsultaService } from 'src/app/_service/consulta.service';
-import { EspecialidadService } from 'src/app/_service/especialidad.service';
-import { ExamenService } from 'src/app/_service/examen.service';
-import { MedicoService } from 'src/app/_service/medico.service';
-import { PacienteService } from 'src/app/_service/paciente.service';
+
 import * as moment from 'moment';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { Cliente } from 'src/app/_model/cliente';

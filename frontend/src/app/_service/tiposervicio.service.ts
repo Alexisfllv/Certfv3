@@ -2,7 +2,6 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Subject } from 'rxjs';
 import { environment } from 'src/environments/environment';
-import { Examen } from '../_model/examen';
 import { GenericService } from './generic.service';
 import { TipoServicio } from '../_model/tiposervicio';
 

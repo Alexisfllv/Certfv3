@@ -1,7 +1,5 @@
 import { ActivatedRoute, Router, Params } from '@angular/router';
-import { EspecialidadService } from '../../../_service/especialidad.service';
 import { FormGroup, FormControl } from '@angular/forms';
-import { Especialidad } from '../../../_model/especialidad';
 import { Component, OnInit } from '@angular/core';
 import { switchMap } from 'rxjs/operators';
 import { Solicitud } from 'src/app/_model/solicitud';

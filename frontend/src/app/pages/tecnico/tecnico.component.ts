@@ -5,8 +5,6 @@ import { MatSnackBar } from '@angular/material/snack-bar';
 import { MatSort } from '@angular/material/sort';
 import { MatTableDataSource } from '@angular/material/table';
 import { switchMap } from 'rxjs';
-import { Medico } from 'src/app/_model/medico';
-import { MedicoService } from 'src/app/_service/medico.service';
 import { TecnicoDialogoComponent } from './tecnico-dialogo/tecnico-dialogo.component';
 import { Tecnico } from 'src/app/_model/tecnico';
 import { TecnicoService } from 'src/app/_service/tecnico.service';

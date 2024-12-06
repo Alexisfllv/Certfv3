@@ -1,10 +1,8 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { FormControl, FormGroup } from '@angular/forms';
 import { MatTabGroup } from '@angular/material/tabs';
-import { FiltroConsultaDTO } from 'src/app/_dto/filtroConsultaDTO';
-import { ConsultaService } from 'src/app/_service/consulta.service';
+
 import * as moment from 'moment';
-import { Consulta } from 'src/app/_model/consulta';
 import { MatTableDataSource } from '@angular/material/table';
 import { MatPaginator } from '@angular/material/paginator';
 import { MatSort } from '@angular/material/sort';

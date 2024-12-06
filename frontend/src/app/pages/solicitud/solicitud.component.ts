@@ -1,11 +1,10 @@
 import { switchMap } from 'rxjs/operators';
 import { ActivatedRoute } from '@angular/router';
 import { MatSnackBar } from '@angular/material/snack-bar';
-import { EspecialidadService } from '../../_service/especialidad.service';
 import { MatSort } from '@angular/material/sort';
 import { MatPaginator } from '@angular/material/paginator';
 import { MatTableDataSource } from '@angular/material/table';
-import { Especialidad } from '../../_model/especialidad';
+
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { Solicitud } from 'src/app/_model/solicitud';
 import { SolicitudService } from 'src/app/_service/solicitud.service';

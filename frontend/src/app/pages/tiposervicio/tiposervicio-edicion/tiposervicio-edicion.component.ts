@@ -1,7 +1,5 @@
 import { ActivatedRoute, Router, Params } from '@angular/router';
-import { ExamenService } from '../../../_service/examen.service';
 import { FormGroup, FormControl } from '@angular/forms';
-import { Examen } from '../../../_model/examen';
 import { Component, OnInit } from '@angular/core';
 import { switchMap } from 'rxjs/operators';
 import { TipoServicio } from 'src/app/_model/tiposervicio';

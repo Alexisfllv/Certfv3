@@ -6,8 +6,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { PdfViewerModule } from 'ng2-pdf-viewer';
 import { MaterialModule } from '../material/material.module';
 
-import { EspecialidadEdicionComponent } from './especialidad/especialidad-edicion/especialidad-edicion.component';
-import { EspecialidadComponent } from './especialidad/especialidad.component';
+
 
 import { LayoutComponent } from './layout/layout.component';
 import { PagesRoutingModule } from './pages-routing.module';
@@ -67,8 +66,7 @@ import { OverlayModule } from '@angular/cdk/overlay';
     exports: [],
     declarations: [
 
-        EspecialidadComponent,
-        EspecialidadEdicionComponent,
+
 
         LayoutComponent,
         InicioComponent,
